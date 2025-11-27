@@ -92,7 +92,7 @@
   }
 }
 
-/* @utility container {
+@utility container {
   margin-inline: auto;
   padding-inline: 2rem;
 
@@ -111,7 +111,8 @@
   @media (width >= 1400px) {
     max-width: 1400px;
   }
-} */
+}
+
 @utility text-glow {
   @apply relative;
   text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
@@ -138,6 +139,7 @@
 @utility meteor {
   @apply absolute bg-gradient-to-r from-white via-white to-transparent rounded-full;
   box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.3);
+  transform: rotate(215deg); /* Agrega esta línea */
 }
 
 #root {

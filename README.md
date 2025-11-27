@@ -50,7 +50,6 @@ Este es mi **portfolio personal**, donde presento mis proyectos, habilidades y u
 
 - ✉️ Email: emilianogasco@gmail.com 
 - 💼 LinkedIn: www.linkedin.com/in/emiliano-augusto-gasco  
-- 🌐 Portfolio:  
 
 ---
 

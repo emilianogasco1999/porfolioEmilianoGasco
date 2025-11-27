@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import { Moon, Sun } from "lucide-react";
 import { useEffect, useState } from "react";
 

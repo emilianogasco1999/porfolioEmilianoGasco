@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils";
+import { cn } from "../lib/utils";
 import { Menu, Sun, X } from "lucide-react";
 import { useEffect, useState } from "react";
 import { ThemeToggleMobile } from "./ThemeToggleMobile";

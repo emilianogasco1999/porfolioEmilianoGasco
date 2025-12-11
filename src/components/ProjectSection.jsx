@@ -1,4 +1,10 @@
-import { ArrowRight, ArrowUp, ExternalLink, Github, GithubIcon } from "lucide-react";
+import {
+  ArrowRight,
+  ArrowUp,
+  ExternalLink,
+  Github,
+  GithubIcon,
+} from "lucide-react";
 
 const projects = [
   {
@@ -30,6 +36,16 @@ const projects = [
     tags: ["React", "Boostrap"],
     // demoUrl: "#",
     // githubUrl: "#",
+  },
+  {
+    id: 4,
+    title: "JavaScript Quiz",
+    description:
+      "Un cuestionario interactivo para practicar preguntas básicas de JavaScript, construido con React, TypeScript y Vite. Ideal para reforzar conocimientos esenciales del lenguaje de manera simple y divertida.",
+    image: "/projects/javascript-quiz.webp",
+    tags: ["React", "TypeScript", "Material UI", "Zustand"],
+    demoUrl: "https://javascript-quiz-emiliano-gasco.netlify.app/",
+    githubUrl: "https://github.com/emilianogasco1999/javascript-quiz",
   },
 ];
 const projectsInDeveloper = [
@@ -202,7 +218,11 @@ export const ProjectSection = () => {
           ))}
         </div>
         <div className="text-center mt-12">
-          <a href="https://github.com/emilianogasco1999/" className="cosmic-button w-fit flex items-center  mx-auto  gap-2" target="_blank">
+          <a
+            href="https://github.com/emilianogasco1999/"
+            className="cosmic-button w-fit flex items-center  mx-auto  gap-2"
+            target="_blank"
+          >
             {" "}
             Ver mi GitHub <ArrowRight size={16} />{" "}
           </a>

@@ -5,7 +5,11 @@ import { useEffect, useState } from "react";
 export const ThemeToggle = () => {
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const storedTheme = localStorage.getItem("theme");
-    return storedTheme === "dark";
+    if (storedTheme === null) {
+      localStorage.setItem("theme", "dark");
+      return true;
+    }
+    return storedTheme === "light" ? false : true;
   });
 
   useEffect(() => {
@@ -32,7 +36,7 @@ export const ThemeToggle = () => {
       onClick={toggleTheme}
       className={cn(
         "fixed max-sm:hidden top-3 right-5 z-50 p-2 rounded-full transiticojn-colors duration-300",
-        "focus:outline-hidden",
+        "focus:outline-hidden"
       )}
     >
       {isDarkMode ? (

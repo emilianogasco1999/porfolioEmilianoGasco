@@ -2,6 +2,7 @@ import { cn } from "../lib/utils";
 import { useToast } from "../hooks/use-toast";
 import {
   Facebook,
+  Github,
   Instagram,
   Linkedin,
   Mail,
@@ -43,6 +44,69 @@ export const ContactSection = () => {
           oportunidades.
         </p>
 
+        {/* <div className="grid grid-cols-1 md:grid-cols-1 gap-12 "> original */}
+
+        {/* <div className="grid grid-cols-1 md:grid-cols-1 gap-12 "> original */}
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-12 ">
+          <div className="space-y-8 bg-card md:p-8 p-4">
+            <h3 className="text-2xl font-semibold mb-6">
+              Informacion de Contacto
+            </h3>
+            <div className=" mb-9 grid grid-cols-1 md:grid-cols-2 md:justify-items-center space-y-6 md:space-y-0">
+           
+              <div className="flex text-start space-x-4 ">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Mail className="h-6 w-6 text-primary" />
+                </div>
+
+                <div className="">
+                  <h4 className="font-medium ">Email </h4>
+                  <a
+                    href="mailto:emilianogasco99@gmail.com"
+                    className="text-muted-foreground hover:text-primary transition-colors duration-300 "
+                  >
+                    emilianogasco99@gmail.com
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex  text-start space-x-4 ">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Phone className="h-6 w-6 text-primary" />
+                </div>
+
+                <div className="">
+                  <h4 className="font-medium">Celular </h4>
+                  <a
+                    href="https://wa.me/5493865530769"
+                    className="text-muted-foreground hover:text-primary transition-colors duration-300 "
+                    target="_blank"
+                  >
+                    +54 9 3865-530769
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <div className="">
+              <h4 className="font-medium mb-4 ">Contactame</h4>
+              <div className="flex space-x-4 justify-center">
+                <a
+                  href="https://www.linkedin.com/in/emiliano-augusto-gasco/"
+                  target="_blank"
+                >
+                  <Linkedin />
+                </a>
+                <a href="https://github.com/emilianogasco1999/" target="_blank">
+                  <Github />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+          {/* ORIGINAL
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 ">
           <div className="space-y-8">
             <h3 className="text-2xl font-semibold mb-6">
@@ -185,7 +249,7 @@ export const ContactSection = () => {
               </button>
             </form>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

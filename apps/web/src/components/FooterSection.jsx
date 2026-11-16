@@ -82,8 +82,8 @@ export const FooterSection = () => {
             <a href="#skills" className="hover:text-white transition-colors">Habilidades</a>
             <span>•</span>
             <a href="#projects" className="hover:text-white transition-colors">Proyectos</a>
-            <span>•</span>
-            <a href="#chapatita" className="hover:text-white transition-colors">Chapatita</a>
+            {/* <span>•</span> */}
+            {/* <a href="#chapatita" className="hover:text-white transition-colors">Chapatita</a> */}
             <span>•</span>
             <a href="#contact" className="hover:text-white transition-colors">Contacto</a>
           </nav>

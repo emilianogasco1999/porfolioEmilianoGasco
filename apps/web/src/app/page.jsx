@@ -48,7 +48,7 @@ export default function HomePage() {
         <InfraSkillsSection />
 
         {/* 11 • Proyectos en Desarrollo (Mi Alberdi + Chapatita) */}
-        <InDevelopmentSection />
+        {/* <InDevelopmentSection /> */}
 
         {/* 12 • Dev Quickstart & Contact CLI */}
         <DevQuickstartCLI />
